@@ -1,0 +1,28 @@
+Q1: How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+A1: The diff functions shows which line is added or removed between two files, allowing the user to directly compare the differences between the two. However, it is unable to pinpoint the exact location -- only the line of difference. 
+
+Q2: How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+A1: This allows the programmer to be able to see what changes were made to previous files and if new bug occurs that didn't appear before, the programmer could debug it immediately.
+
+Q3: What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+A3: The pros of manually choosing when to commit is committing when you make a meaningful change to your code and ensuring that each commit is code that can be run. 
+
+Q4: Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+A4: Files in google doc are less reliant on one another, whereas files on version control systems like Git are often very complex and are reliant on one another. 
+
+Q5: How can you use the commands git log and git diff to view the history of files?
+
+A5: Git log allows the user to see every single commit of the file and the diff allows the user to see the exact changes of the code in the file
+
+Q6: How might using version control make you more confident to make changes that could break something?
+
+A6: With version control, if the code were to somehow break, I would then be able to quickly fix my error by reverting back to a previous commit that I knew was functioning correctly.
+
+Q7: Now that you have your workspace set up, what do you want to try using Git for?
+
+A7: I want to try using Git to compare multiple commits and keeping track of my files more efficiently. 
+
